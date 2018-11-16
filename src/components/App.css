@@ -1,0 +1,55 @@
+h1 {
+  margin-left: .5rem;
+}
+
+body {
+  margin: 0 1rem;
+}
+
+.traffic-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.traffic-item,
+.traffic-item img {
+  width: 15rem;
+}
+
+.traffic-item {
+  display: flex;
+  flex-flow: column nowrap;
+  background: #333;
+  padding: 1rem .8rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.traffic-item p {
+  flex-grow: 1;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.traffic-item a {
+  padding: .5rem .8rem;
+  border: .2rem solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-decoration-line: none;
+  width: 8rem;
+  text-align: center;
+}
+
+.traffic-item a:hover,
+.traffic-item a:focus,
+.traffic-item a:active {
+  background: #fff;
+  color: #333;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

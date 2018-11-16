@@ -17,3 +17,6 @@ yarn
 ``` bash
 yarn start
 ```
+``` bash
+yarn test
+```

@@ -1,0 +1,19 @@
+.app {
+
+  &-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  
+  &-header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;  
+  }
+
+  &-title {
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+  }
+}
